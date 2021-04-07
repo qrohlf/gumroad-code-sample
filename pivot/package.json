@@ -1,0 +1,17 @@
+{
+  "name": "pivot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "run.pivot": "mocha pivot"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
