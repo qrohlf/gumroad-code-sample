@@ -16,9 +16,18 @@
 >
 > If you have product feedback as well, we'd love to hear it!
 
-## Solution
+## Solution Features
 
-see widgets.js
+- Renders overlays and product embeds
+- Eager-loads overlays on hover
+- Supports both Gumroad.com links and gum.co shortlinks
+- Supports custom user domains via a data attribute on the `widgets.js` script tag
+- Uses a MutationObserver to support applying Gumroad overlay and embeds to HTML that is loaded asynchronously (infinite scrolling sites, blogs or sites using a framework like React, etc etc.)
+- Embeds can be configured either using the `<div class="gumroad-product-embed">` syntax, or a `data-gumroad-embed="true"` attribute on anchor elements.
+
+## Solution Code
+
+see [widgets.js](./widgets.js)
 
 ## Running the solution
 
